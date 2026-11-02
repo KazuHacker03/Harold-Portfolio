@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harold Cacho | EMC Portfolio</title>
+<link rel="icon" type="image/png" href="logo.jpg">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="rain"></canvas>
+
+<nav>
+  <div class="logo">HC<span>_</span>dev</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <p class="tag">&gt; system.init("HAROLD")</p>
+    <h1 class="name"><span class="glitch" data-text="HAROLD CACHO">HAROLD CACHO</span></h1>
+    <p class="role" id="typed"></p>
+    <p class="lead">
+      Bachelor of Science in Entertainment and Multi-Media Computing, 3D Artist at Digital Artist.
+      Creating a Code for Clients
+    </p>
+    <a class="btn" href="#projects">[ VIEW_PROJECTS ]</a>
+    <a class="btn alt" href="#contact">[ CONTACT_ME ]</a>
+  </div>
+  <div id="three-holder"></div>
+</section>
+
+<section id="about">
+  <h2>ABOUT_ME</h2>
+  <div class="terminal reveal">
+    <div class="term-bar">
+      <div class="dot" style="background:#ff5f56"></div>
+      <div class="dot" style="background:#ffbd2e"></div>
+      <div class="dot" style="background:#27c93f"></div>
+      <span class="title">harold@emc ~ about.sh</span>
+    </div>
+    <div class="term-body" id="term"></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>SKILL_MATRIX</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <h3>&gt; Coding &amp; Dev</h3>
+      <div class="skill-row"><label><span>JavaScript / HTML / CSS</span><span>85%</span></label><div class="bar"><div class="fill" data-w="85"></div></div></div>
+      <div class="skill-row"><label><span>Python</span><span>75%</span></label><div class="bar"><div class="fill" data-w="75"></div></div></div>
+      <div class="skill-row"><label><span>Java / C++</span><span>70%</span></label><div class="bar"><div class="fill" data-w="70"></div></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <h3>&gt; 3D &amp; Multimedia</h3>
+      <div class="skill-row"><label><span>Blender / 3D Modeling</span><span>80%</span></label><div class="bar"><div class="fill" data-w="80"></div></div></div>
+      <div class="skill-row"><label><span>Video Editing / Motion</span><span>78%</span></label><div class="bar"><div class="fill" data-w="78"></div></div></div>
+      <div class="skill-row"><label><span>Graphic Design</span><span>82%</span></label><div class="bar"><div class="fill" data-w="82"></div></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <h3>&gt; Security &amp; Tools</h3>
+      <div class="skill-row"><label><span>Network Basics</span><span>65%</span></label><div class="bar"><div class="fill" data-w="65"></div></div></div>
+      <div class="skill-row"><label><span>Git / GitHub</span><span>80%</span></label><div class="bar"><div class="fill" data-w="80"></div></div></div>
+      <div class="chips">
+        <span class="chip">Linux</span><span class="chip">Kali</span><span class="chip">Unity</span><span class="chip">Figma</span><span class="chip">Adobe CC</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>PROJECTS</h2>
+  <div class="projects">
+    <div class="project tilt reveal">
+      <div class="num">// 001</div>
+      <h3>Cyber Quest 3D</h3>
+      <p>An interactive 3D game where players must hack through firewalls by solving puzzle-based logic challenges.</p>
+      <div class="chips"><span class="chip">Unity</span><span class="chip">C#</span></div>
+    </div>
+    <div class="project tilt reveal">
+      <div class="num">// 002</div>
+      <h3>Neon Portfolio Engine</h3>
+      <p>A web-based 3D showcase featuring particle effects and a responsive layout built for creatives.</p>
+      <div class="chips"><span class="chip">Three.js</span><span class="chip">JS</span></div>
+    </div>
+    <div class="project tilt reveal">
+      <div class="num">// 003</div>
+      <h3>Motion Graphics Reel</h3>
+      <p>Animated short film at promo video na may 3D titles, sound design, at color grading.</p>
+      <div class="chips"><span class="chip">Blender</span><span class="chip">After Effects</span></div>
+    </div>
+    <div class="project tilt reveal">
+      <div class="num">// 004</div>
+      <h3>Phishing Awareness App</h3>
+      <<p>A simple educational app that teaches students how to recognize phishing emails.</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">Flask</span></div>
+    </div>
+  </div>
+   </div>
+    <div class="project tilt reveal">
+      <div class="num">// 005</div>
+     <footer>
+  <a class="footer-link" href="https://try-mee-alpha.vercel.app/" target="_blank" rel="noopener">
+    <span class="fl-dot"></span>
+    Harold - Secure Terminal
+    <span class="fl-arrow">&rarr;</span>
+  </a>
+  <p class="footer-text">For Educational Purpose.</p>
+</footer>
+  </div>
+  </div>
+    <div class="project tilt reveal">
+      <div class="num">// 006</div>
+     <footer>
+  <a class="footer-link" href="https://www.figma.com/design/NGRP26NF336TuSvq1eUVHi/Group-2--Copy-?node-id=1320-793&t=g9HvkHlcA5hOVWma-1" target="_blank" rel="noopener">
+    <span class="fl-dot"></span>
+    Figma
+    <span class="fl-arrow">&rarr;</span>
+  </a>
+   <p class="footer-text">Our Projects.</p>
+</footer>
+  </div>
+</section>
+
+<section id="education">
+  <h2>EDUCATION</h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="year">2024 - Present</div>
+      <h4>Bachelor of Science in Entertainment and Multi-Media Computing</h4>
+      <p>Pinag-aaralan ang game development, 3D animation, multimedia production, at software engineering.</p>
+    </div>
+    <div class="tl-item reveal">
+      <div class="year">Senior High School</div>
+      <h4>HUMSS| Knowing Coding</h4>
+      <p>Foundation sa programming, computer systems, at digital media.</p>
+    </div>
+    <div class="tl-item reveal">
+      <div class="year">Cabanatuan City, Philippines</div>
+      <h4>Achievements &amp; Activities</h4>
+      <p>Edit this section with your awards, org roles, hackathons, or certifications.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>CONTACT</h2>
+  <div class="contact-box reveal">
+    <p>&gt; Open for collabs, internships, at freelance projects. Let's build something cool.</p>
+    <div class="links">
+      <a class="btn" href="haroldcacho16@gmail.com">[ EMAIL ]</a>
+      <a class="btn alt" href="https://github.com/KazuHacker03">[ GITHUB ]</a>
+      <a class="btn" href="https://www.facebook.com/HaroldCachoAnimator">[ FACEBOOK ]</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="footer-text">&copy; 2026 Harold Cacho // Built with code, coffee, and a little bit of chaos.</p>
+</footer>
+
+<script>
+// ---------- Matrix rain background ----------
+const canvas = document.getElementById('rain');
+const ctx = canvas.getContext('2d');
+let cols, drops;
+const chars = "01アイウエオカキクケコ<>{}[]#$%&/=";
+function resizeRain() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  cols = Math.floor(canvas.width / 16);
+  drops = Array(cols).fill(1);
+}
+resizeRain();
+window.addEventListener('resize', resizeRain);
+function drawRain() {
+  ctx.fillStyle = "rgba(5,7,12,0.12)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "#00ffaa";
+  ctx.font = "14px Consolas, monospace";
+  for (let i = 0; i < drops.length; i++) {
+    const ch = chars[Math.floor(Math.random() * chars.length)];
+    ctx.fillText(ch, i * 16, drops[i] * 16);
+    if (drops[i] * 16 > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  }
+  requestAnimationFrame(drawRain);
+}
+drawRain();
+
+// ---------- Three.js 3D hero object ----------
+const holder = document.getElementById('three-holder');
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, holder.clientWidth / holder.clientHeight, 0.1, 100);
+camera.position.z = 6;
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+renderer.setSize(holder.clientWidth, holder.clientHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+holder.appendChild(renderer.domElement);
+
+const group = new THREE.Group();
+scene.add(group);
+
+const coreGeo = new THREE.IcosahedronGeometry(1.6, 1);
+const coreMat = new THREE.MeshBasicMaterial({ color: 0x00ffaa, wireframe: true });
+group.add(new THREE.Mesh(coreGeo, coreMat));
+
+const innerGeo = new THREE.OctahedronGeometry(0.8, 0);
+const innerMat = new THREE.MeshBasicMaterial({ color: 0xff2e63, wireframe: true });
+const inner = new THREE.Mesh(innerGeo, innerMat);
+group.add(inner);
+
+const ringGeo = new THREE.TorusGeometry(2.6, 0.02, 8, 120);
+const ringMat = new THREE.MeshBasicMaterial({ color: 0x00e5ff });
+const ring1 = new THREE.Mesh(ringGeo, ringMat);
+ring1.rotation.x = Math.PI / 2.4;
+const ring2 = new THREE.Mesh(ringGeo, ringMat.clone());
+ring2.material.color.set(0x00ffaa);
+ring2.rotation.y = Math.PI / 3;
+scene.add(ring1, ring2);
+
+// particle field
+const pCount = 600;
+const pGeo = new THREE.BufferGeometry();
+const pos = new Float32Array(pCount * 3);
+for (let i = 0; i < pCount * 3; i++) pos[i] = (Math.random() - 0.5) * 12;
+pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+const points = new THREE.Points(pGeo, new THREE.PointsMaterial({ color: 0x00e5ff, size: 0.03 }));
+scene.add(points);
+
+let mouseX = 0, mouseY = 0;
+document.addEventListener('mousemove', e => {
+  mouseX = (e.clientX / window.innerWidth - 0.5);
+  mouseY = (e.clientY / window.innerHeight - 0.5);
+});
+
+function animate3D() {
+  requestAnimationFrame(animate3D);
+  group.rotation.x += 0.003;
+  group.rotation.y += 0.005;
+  inner.rotation.x -= 0.01;
+  inner.rotation.z += 0.008;
+  ring1.rotation.z += 0.004;
+  ring2.rotation.x += 0.003;
+  points.rotation.y += 0.0008;
+  group.rotation.x += (mouseY * 0.6 - group.rotation.x) * 0.02;
+  group.rotation.y += (mouseX * 0.6 - group.rotation.y) * 0.02;
+  renderer.render(scene, camera);
+}
+animate3D();
+
+window.addEventListener('resize', () => {
+  const w = holder.clientWidth, h = holder.clientHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+});
+
+// ---------- Typewriter role ----------
+const roles = ["Game Developer", "3D Artist", "Multimedia Creator", "Security Enthusiast"];
+let ri = 0, ci = 0, deleting = false;
+const typed = document.getElementById('typed');
+function typeLoop() {
+  const word = roles[ri];
+  typed.textContent = deleting ? word.slice(0, ci--) : word.slice(0, ci++);
+  let delay = deleting ? 50 : 110;
+  if (!deleting && ci > word.length) { deleting = true; delay = 1400; }
+  else if (deleting && ci < 0) { deleting = false; ri = (ri + 1) % roles.length; delay = 300; ci = 0; }
+  setTimeout(typeLoop, delay);
+}
+typeLoop();
+
+// ---------- Terminal about typing ----------
+const termLines = [
+  { p: "whoami", o: "Harold Cacho - BSEMC Student" },
+  { p: "Course", o: "Bachelor of Science in Entertainment and Multi-Media Computing" },
+  { p: "Flexible", o: "Game dev, 3D modeling, motion graphics, cybersecurity, at clean code." },
+  { p: "./status", o: "Status: <span class='key'>ONLINE</span> | Open for collabs" }
+];
+const term = document.getElementById('term');
+let html = "";
+async function runTerminal() {
+  for (const line of termLines) {
+    html += `<div><span class="prompt">harold@emc:~$</span> ${line.p}</div>`;
+    term.innerHTML = html + `<div class="out" id="cur"></div>`;
+    const cur = document.getElementById('cur');
+    for (let i = 1; i <= line.o.length; i++) {
+      cur.innerHTML = line.o.slice(0, i) + "<span class='prompt'>▌</span>";
+      await new Promise(r => setTimeout(r, 22));
+    }
+    cur.innerHTML = line.o;
+    html += `<div class="out">${line.o}</div>`;
+  }
+  term.innerHTML = html + `<div><span class="prompt">harold@emc:~$</span> <span class="prompt">▌</span></div>`;
+}
+const aboutObserver = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) { runTerminal(); aboutObserver.disconnect(); } });
+}, { threshold: 0.4 });
+aboutObserver.observe(document.getElementById('term'));
+
+// ---------- Reveal + skill bars ----------
+const revealObs = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) {
+      en.target.classList.add('show');
+      en.target.querySelectorAll('.fill').forEach(f => f.style.width = f.dataset.w + '%');
+    }
+  });
+}, { threshold: 0.2 });
+document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+// ---------- 3D tilt on project cards ----------
+document.querySelectorAll('.tilt').forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const r = card.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    card.style.transform = `rotateY(${x * 14}deg) rotateX(${-y * 14}deg)`;
+  });
+  card.addEventListener('mouseleave', () => card.style.transform = 'none');
+});
+</script>
+</body>
+</html>
